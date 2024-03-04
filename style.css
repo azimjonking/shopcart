@@ -16,4 +16,152 @@ body {
     width: 100%;
     min-height: 100dvh;
     background: #fff;
+    padding: 50px 100px;
 }
+
+/* section news start  */
+.news {
+    padding-bottom: 4rem;
+}
+.news h2 {
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.news hr {
+    padding: 1.5px;
+    margin-top: 1rem;
+    margin-bottom: 2.4rem;
+    border: none;  
+    background: #FFAE5D;
+}
+.news-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.news-cards .news-card p {
+    font-size: 16px;
+    font-weight: 600;
+    max-width: 230px;
+    line-height: 1.5rem;
+    padding-top: 1rem;
+}
+.news-cards .news-card span p {
+    font-weight: 500;
+}
+.news-cards .news-card span .discount {
+    color: #FF3232;
+}
+.news-card {
+    max-width: 266px;
+    padding: 5px;
+    flex-wrap: nowrap;
+    transition: .3s;
+}
+.news-card:hover {
+    box-shadow: 0 0 20px #FFAE5D;
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+.news-card span {
+    display: flex;
+    gap: 3rem;
+}
+.news img {
+    max-width: 160px;
+    transform: translateX(2rem);
+}
+
+/* section news end  */
+
+/* section top-items start  */
+.top-items h2 {
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.top-items .top-imgs {
+    display: flex;
+    padding-top: 1rem;
+    gap: 2rem;
+}
+.top-items .top-imgs img{
+    aspect-ratio: 1 / 1;
+    width: 180px;
+    transition: .3s;
+}
+.top-items {
+    padding-bottom: 5rem;
+}
+.top-imgs img:hover {
+    box-shadow: 0 0 10px #FFAE5D;
+    transform: scale(1.2);
+    border-radius: 10px;
+}
+.top-items hr {
+    padding: 1.5px;
+    margin-top: 1rem;
+    margin-bottom: 2.4rem;
+    border: none;  
+    background: #FFAE5D;
+}
+/* section top-items end  */
+
+/* section furniture start  */
+.furniture hr {
+    padding: 1.5px;
+    margin-top: 1rem;
+    margin-bottom: 2.4rem;
+    border: none;  
+    background: #FFAE5D;
+}
+.furniture .furniture-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.furniture {
+    padding-bottom: 4rem;
+}
+.furniture h2 {
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+.furniture-cards .furniture-card p {
+    font-size: 16px;
+    font-weight: 600;
+    max-width: 230px;
+    line-height: 1.5rem;
+    padding-top: 1rem;
+}
+.furniture-cards .furniture-card span p {
+    font-weight: 500;
+}
+.furniture-cards .furniture-card span .discount {
+    color: #FF3232;
+}
+.furniture-card {
+    max-width: 266px;
+    padding: 5px;
+    flex-wrap: nowrap;
+    transition: .3s;
+}
+.furniture-card:hover {
+    box-shadow: 0 0 20px #FFAE5D;
+    border-radius: 10px;
+    transform: scale(1.1);
+}
+.furniture-card span {
+    display: flex;
+    gap: 3rem;
+}
+.furniture img {
+    max-width: 160px;
+    transform: translateX(2rem);
+}
+
+/* section furniture end  */

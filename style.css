@@ -17,3 +17,86 @@ body {
     min-height: 100dvh;
     background: #fff;
 }
+
+header {
+    margin-top: 40px;
+    max-width: 1517px;
+    width: 100%;
+    min-height: 48px;
+    display: flex;
+    
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon-bolder{
+    font-weight: bold;
+}
+
+.icon2{
+    color: #fff;
+}
+
+.icon{
+    font-size: 25px;
+}
+
+.left > a{
+    text-decoration: none;
+    color: black;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.delhi {
+    margin-top: 15px;
+    border-radius: 20px;
+    background-color: #FFAE5D;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.top > input{
+    padding: 16px;
+    width: 622px;
+    margin-top: 15px;
+    color: #808080;
+    border: 1px solid #808080;
+    border-radius: 20px;
+}
+
+.bottom {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    min-height: 200px;
+    background-color: #404040;
+    display: flex;
+    align-items: center;
+}
+
+
+.footer-inf{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hrefs > a{
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+}
+
+
+
